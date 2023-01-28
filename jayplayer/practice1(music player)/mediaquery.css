@@ -1,0 +1,316 @@
+@media(max-width:1350px) {
+
+
+    #firstpagecarouselimg {
+            height: 350px;
+            width: 900px;
+        }
+
+
+    #entrancecarouselimg {
+        margin-left: 65px;
+        height: 270px;
+        width: 800px;
+    }
+
+    #jayplayermain {
+        font-size: 20px;
+    }
+
+    #logomain {
+        width: 60px;
+        height: 60px;
+    }
+
+    #greetings {
+        margin-right: 150px;
+    }
+
+    #myHeaderInput {
+        width: 400px;
+    }
+
+
+
+    #downloadbutton {
+        margin-left: 2px;
+    }
+
+    #bottomlogoimg {
+        display: none;
+    }
+
+    #bottomlogoname {
+        display: none;
+    }
+
+
+}
+
+
+
+@media(max-width:1050px) {
+
+#firstpagecarouselimg{
+    height: 300px;
+        width: 800px;
+}
+
+    #entrancecarouselimg {
+        margin-left: 65px;
+        height: 220px;
+        width: 600px;
+    }
+
+    #jayplayermain {
+        font-size: 18px;
+    }
+
+    #logomain {
+        width: 50px;
+        height: 50px;
+    }
+
+    #greetings {
+        margin-right: 150px;
+    }
+
+    #myHeaderInput {
+        width: 300px;
+    }
+
+    #thename {
+        font-size: 17px;
+    }
+
+    #bottomcontroller {
+        width: 1050px;
+    }
+
+}
+
+
+
+
+@media(max-width:950px) {
+
+    #firstpagecarouselimg {
+            height: 285px;
+            width: 700px;
+        }
+
+    #thename {
+        font-size: 14px;
+    }
+
+    #jayplayermain {
+        font-size: 17px;
+    }
+
+
+    #logomain {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    #greetings {
+        margin-right: 150px;
+    }
+
+    #myHeaderInput {
+        width: 250px;
+    }
+
+
+
+    #themusicvidandcontentcontainer {
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: black;
+        width: 520px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: whitesmoke;
+        border-width: 3px;
+        margin-top: 7px;
+        margin-bottom: 30px;
+    }
+
+    #themainmusicvideo {
+        height: 400px;
+        width: 510px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+
+    }
+
+    #bottomcontroller {
+        width: 950px;
+    }
+
+}
+
+
+
+
+
+@media(max-width:880px) {
+
+        #firstpagecarouselimg {
+                height: 285px;
+                width: 550px;
+            }
+
+    #entrancecarouselimg {
+        margin-left: 65px;
+        height: 180px;
+        width: 500px;
+    }
+
+    #thename {
+        font-size: 12px;
+    }
+
+    #jayplayermain {
+        font-size: 15px;
+    }
+
+
+    #logomain {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    #greetings {
+        margin-right: 100px;
+    }
+
+    #myHeaderInput {
+        width: 150px;
+    }
+
+
+    #profileimage {
+        height: 30px;
+        width: 30px;
+    }
+
+    #menubar {
+        width: 200px;
+    }
+
+
+    #mylist {
+        font-size: 15px;
+    }
+
+    #mylist li a:hover {
+        margin-left: 1px;
+    }
+
+
+    #bottomcontroller {
+        width: 880px;
+    }
+
+}
+
+
+
+
+@media(max-width:800px) {
+
+        #firstpagecarouselimg {
+                height: 285px;
+                width: 550px;
+                    margin-left: 50px;
+            }
+
+    #entrancecarouselimg {
+        margin-left: 65px;
+        height: 180px;
+        width: 400px;
+    }
+
+    #jayplayermain {
+        font-size: 15px;
+    }
+
+
+
+    #logomain {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    #greetings {
+        margin-right: 100px;
+    }
+
+    #myHeaderInput {
+        display: none;
+    }
+
+
+
+    #profileimage {
+        height: 30px;
+        width: 30px;
+    }
+
+    #menubar {
+        width: 200px;
+    }
+
+
+    #mylist {
+        font-size: 15px;
+        padding-left: 0px;
+    }
+
+    #mylist li a:hover {
+        margin-left: 1px;
+    }
+
+
+
+    #logowithnamediv {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #bottomcontroller {
+        width: 800px;
+    }
+
+    .thecontroller {
+
+        margin-left: 10px;
+    }
+
+    .bottomprevbtn {
+        margin-right: 1px;
+    }
+
+    .bottomnextbtn {
+        margin-left: 1px;
+    }
+
+
+}
+
+
+@media(max-width:575px) {
+        #firstpagecarouselimg {
+                height: 230px;
+                width: 400px;
+                margin-left: 50px;
+            }
+    #searchbarwithlogoutdiv {
+        background-color: black;
+    }
+}

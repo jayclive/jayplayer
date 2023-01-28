@@ -1,0 +1,1180 @@
+body {
+    background-color: black;
+    overflow: hidden;
+    color: white;
+}
+
+/*------the main header css--*/
+
+#mainheader {
+    border-bottom: 1px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-color: rgb(37, 37, 37);
+    border-style: solid;
+
+}
+
+#logowithnamediv {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;
+    justify-content: end;
+    padding-left: 25px;
+
+}
+
+#logomain {
+    width: 80px;
+    height: 60px;
+}
+
+#jayplayermain {
+    color: blue;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serifw;
+    font-size: 25px;
+}
+
+/*************** the greetings at the top screen*********/
+
+@keyframes greetingsword {
+    from {
+        border-top-color: white;
+        border-bottom-color: blue;
+        border-left: white;
+        border-right: blue;
+
+    }
+
+    to {
+        border-top-color: blue;
+        border-bottom-color: white;
+        border-left: blue;
+        border-right: white;
+    }
+}
+
+#greetings {
+
+    border-color: white;
+    border-style: solid;
+    margin-right: 330px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-width: 2px;
+    animation-name: greetingsword;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+
+
+@keyframes greetingfirstword {
+    from {
+        color: rgb(61, 61, 255);
+
+    }
+
+    to {
+        color: white;
+
+    }
+}
+
+#firstgreetingword {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: greetingfirstword;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    font-size: 15px;
+
+
+}
+
+
+@keyframes greetingsecondword {
+    from {
+        color: white;
+        padding-left: 20px;
+    }
+
+    to {
+        color: rgb(61, 61, 255);
+        padding-left: 45px;
+    }
+}
+
+#secondgreetingword {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation-name: greetingsecondword;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    font-size: 15px;
+
+
+}
+
+
+/************ the greetings ends here *******/
+
+
+
+#myHeaderInput {
+    width: 500px;
+    border-radius: 20px;
+    background-color: black;
+    border-color: white;
+    color: white;
+
+}
+
+#logoutmain {
+    color: white;
+    margin-left: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#searchbarwithlogoutdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 10px;
+    background-color: rgb(14, 14, 14);
+    padding-top: 10px;
+    margin-left: 20px;
+
+
+
+}
+
+/*----the menu side bar's css---*/
+#menubar {
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    height: 708px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    width: 235px;
+    padding-left: 30px;
+    margin-left: 0px;
+
+
+}
+
+#hi {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#menubar:hover {
+    overflow-y: auto;
+
+}
+
+
+#profile {
+    margin-bottom: 30px;
+}
+
+#profileimage {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+#profiletext {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.greenvalidation {
+    color: rgb(6, 230, 6);
+}
+
+.redvalidation {
+    color: rgb(255, 6, 6);
+}
+
+#mylist {
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    padding-left: 15px;
+}
+
+#mylist li a {
+    color: white;
+    margin-bottom: 30px;
+}
+
+#mylist li a:hover {
+    color: blue;
+    padding-left: 25px;
+}
+
+
+
+/*----the main content css---*/
+
+#entrancecarouselimg {
+    margin-left: 65px;
+    height: 300px;
+    width: 1000px;
+}
+
+#maincontent {
+    background-color: rgb(14, 14, 14);
+    padding-bottom: 160px;
+    height: 708px;
+    color: white;
+    padding-top: 80px;
+    overflow-y: auto;
+    overflow-x: auto;
+
+
+}
+
+#description {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    width: 80px;
+    background-color: rgb(14, 14, 14);
+    padding-left: 20px;
+    color: blue;
+}
+
+#areaindicator {
+    font-size: 30px;
+}
+
+#maincontent {
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+
+.homepagemusiccategories {
+    margin: 25px;
+    margin-bottom: 50px;
+
+}
+
+#hotlistandmoreicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#homepagemore {
+    color: white;
+}
+
+#homepagemore:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#hotlistimages {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    color: white;
+
+}
+
+#hotlistimages a img {
+    border-radius: 7px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+/*****************************hotlist(more).html STARTS HERE******************************************************/
+
+/*****main content*****/
+
+/*******mini nav button*****/
+#morenavbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+
+}
+
+#greycolor {
+    color: gray;
+
+}
+
+.arrowbackward {
+    cursor: pointer;
+
+}
+
+#arrowForward {
+    cursor: pointer;
+    color: grey;
+}
+
+
+
+/*-----------------------hot list more contents-----------------------*/
+
+/******mini nav buttons*******/
+.arrowbackward {
+    color: white;
+}
+
+.arrowbackward:hover {
+    color: blue;
+}
+
+#morelistcontent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+#morelistcontent a {
+    cursor: pointer;
+
+}
+
+#carddetails {
+    background-color: black;
+
+
+
+}
+
+#morelistimages {
+    width: 200px;
+    height: 200px;
+}
+
+#morelistcontent a img {
+    margin-right: 10px;
+    border-radius: 7px;
+
+}
+
+
+
+/*******bottom controller*****/
+#bottomcontroller {
+    color: white;
+    background-color: black;
+    height: 70px;
+    width: 1362px;
+
+
+}
+
+
+
+
+#imgnameandcontroller {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#imageandname {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+#theimage {
+    width: 60px;
+    height: 60px;
+    border-radius: 7px;
+    margin-left: 20px;
+
+}
+
+#thename {
+    margin-left: 10px;
+}
+
+#theartist:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.thecontroller {
+    height: 40px;
+    margin-left: 40px;
+
+}
+
+.bottomprevbtn {
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+.bottomnextbtn {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#prevandnextbtn {
+    padding-top: 18px;
+
+}
+
+#downloadbuttonandicon {
+    padding-top: 18px;
+
+}
+
+#downloadbutton {
+    color: white;
+    margin-right: 80px;
+    margin-left: 70px;
+
+}
+
+#downloadbutton:hover {
+    color: aqua;
+}
+
+.bottomprevbtn:hover,
+.bottomnextbtn:hover {
+    color: aqua;
+}
+
+
+#bottomlogoimg {
+    height: 40px;
+    width: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+/*************hotlist more musics******/
+#homemoreentranceimage {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+
+}
+
+#homemorebiobackgroundimage {
+    background-image: url("/practice1(music player)/images/artistbackground3.jpg");
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/***************css for trending*********************/
+
+#trendingimage {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************  Artists.asp css   ******************************/
+#artistsicon {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: 30px;
+
+
+}
+
+#artistandname {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+#artistentranceimage {
+    border-radius: 110px;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+/************** Asake *************/
+
+#artistnavbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-image: url("/practice1(music player)/images/artistbackground.jpeg")
+}
+
+#asakecontainer {
+    background-color: rgb(14, 14, 14);
+    margin-left: 10px;
+
+}
+
+#artistbiobackgroundimage {
+    background-image: url("/practice1(music player)/images/artistbackground.jpeg");
+
+}
+
+#artistdetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+
+#songsandsearchbar {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+}
+
+#numberofsongs {
+    color: grey;
+}
+
+#searchwithintracks {
+    width: 500px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin-left: 70px;
+    border-color: white;
+}
+
+tbody tr:hover {
+    background-color: rgb(32, 32, 32);
+
+}
+
+#tablelist {
+    color: white;
+}
+
+#musiclistheader {
+    color: grey;
+}
+
+.musiclistplay {
+    margin-right: 10px;
+
+}
+
+#musiclistdownloadbutton {
+    color: white;
+
+
+}
+
+.musiclistplay:hover,
+#musiclistpause:hover,
+#musiclistdownloadbutton:hover {
+    color: aqua;
+    cursor: pointer;
+
+}
+
+#vpauseanddownloadbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5px;
+
+}
+
+#musicdownloadbtncontainer {
+    align-items: center;
+}
+
+#musiclistpauseandplaybtncontainer {
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************** css for videos **************/
+
+#vidoecontainer {
+    margin-left: 30px;
+}
+
+
+
+#videobtncontainer {
+    margin-bottom: 20px;
+    margin-left: 100px;
+
+}
+
+
+#videogeneralbtn {
+    background-color: rgb(44, 43, 43);
+    color: white;
+    border-radius: 20px;
+}
+
+#videogeneralbtn:hover {
+    background-color: blue;
+    color: white;
+
+}
+
+#videocurrentbtn {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+
+
+/************ css for the videos cards ************/
+#allvideocardscontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+#videocardcontainer {
+    width: 330px;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+
+}
+
+#cardvideo {
+    width: 330px;
+    height: 250px;
+
+}
+
+#cardimage {
+    width: 330px;
+    height: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+#allcardaboutmusic {
+    background-color: rgb(24, 23, 23);
+}
+
+#videoname {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+#videoartistimage {
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    margin-left: 30px;
+
+}
+
+#cardvidartistname {
+    color: grey;
+    font-size: 15px;
+
+
+}
+
+
+#cardviddownloadcontainer {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#cardviddownloadicon {
+    color: white;
+    margin-right: 20px;
+}
+
+#cardviddownloadicon:hover {
+    color: aqua;
+}
+
+
+
+/***********the main music video********/
+
+#themusicvidandcontentcontainer {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+    width: 708px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 3px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+
+#themainmusicvideo {
+    height: 400px;
+    width: 700px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+#musicnametitleandpicture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#mainmusicartistname {
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+#mainmusictitle {
+    margin-left: 10px;
+}
+
+#mainmusicartistimage {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+
+/********** video You May Also Like**********/
+
+
+#allmaylikecontainer {
+    margin-left: 80px;
+
+}
+
+#vidandnameforyoumayalsolike {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 17px;
+
+}
+
+#vidandnameforyoumayalsolike:hover {
+    background-color: rgb(51, 51, 51);
+    cursor: pointer;
+}
+
+
+#maylikevidimg {
+    height: 60px;
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#maylikevidname {
+    font-weight: 700;
+    color: rgb(199, 197, 197);
+}
+
+
+#maylikevidartist {
+    font-size: 15px;
+    color: rgb(199, 197, 197);
+
+
+}
+
+
+
+
+/***************short videos*********/
+
+#theentireshortvideocontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+
+
+#theshortvidandcontentcontainer {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+    width: 303px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+
+}
+
+
+
+#themainshortvideo {
+    height: 350px;
+    width: 300px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+
+#shortmusicnametitleandpicture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#shortmusictitle {
+    margin-left: 10px;
+}
+
+#shortmusicartistname {
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+
+#shortmusicartistimage {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+/********* css for playlists **********/
+
+
+
+#allplaylists {
+    margin-left: 40px;
+    margin-top: 40px;
+    flex-direction: row;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-bottom: 20px
+}
+
+#theplaylist {
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+/********* charts***********/
+
+#chartscontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+
+#allchartcontainer {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+
+#chartcategoryName {
+    color:white;
+    font-size: 25px;
+  
+}
+/************* dailycharts**************/
+
+
+
+#alldailycharts {
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color:rgb(22, 22, 22) ;
+    border-radius:40px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+@keyframes chartsedit {
+    25% {
+        width: 450px;
+    }
+
+    50% {
+        width: 300px;
+    }
+
+    75% {
+        width: 330px;
+    }
+
+    100% {
+        width: 300px;
+    }
+}
+
+
+
+
+.dailycharts{
+    margin-right: 10px;
+}
+
+
+.dailycharts:hover {
+    cursor: pointer;
+    width: 300px;
+    animation-name: chartsedit;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 0.1s;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+.generaldailychartsimg {
+    height: 300px;
+    width: 90px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.generaldailychartsimg:hover {
+    cursor: pointer;
+    width: 300px;
+    animation-name: chartsedit;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+
+}
+
+
+
+.generaldisplaychartdetails{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#chartdetailssongname{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#chartdetailsartistname{
+    padding-left: 5px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+
+#chartdetailssongstreams{
+    font-size: 15px;
+    color: rgb(187, 187, 187);
+}
+
+#playchartlisticon{
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+#chartlistdownloadicon{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+#playchartlisticon:hover,#chartlistdownloadicon:hover{
+    color: aqua;
+}
+
+
+
+
+
+
+
+/*********** weekly charts***************/
+#weeklychartartistname{
+font-size: 12px;
+    color: rgb(187, 187, 187);
+}
+
+
+#weeklychartsnumberofviews{
+    font-size: 12px;
+    color: rgb(187, 187, 187);
+}
+
+
+
+
+
+/************offline message ************/
+
+#offlinespinner{
+    margin-top: 110px;
+}
+
+#offlineretrybutton{
+    color: white;
+    background-color:blue;
+    width: 100px;
+    height: 45px;
+    border-radius: 9px;
+
+}
+
+#offlineretrybutton:hover{
+    background-color: rgba(0, 0, 255, 0.473);
+}

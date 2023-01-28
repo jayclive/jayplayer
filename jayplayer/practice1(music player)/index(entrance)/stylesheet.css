@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#screw{
+transform: rotate(25deg);
+}
+
+#entranceproceedbtn{
+    margin-top: 10px;
+        display: flex;
+        justify-content: center;
+}
+
+#firstpagecarouselimg{
+margin-left: 110px;
+width: 1100px;
+height: 400px;
+}
